@@ -1,5 +1,5 @@
 <template>
-  <nav id="nav">
+  <nav class="flex fixed" id="nav">
     <router-link to="/" class="logo">Makerspace Ringebu</router-link>
     <ul class="nav-links">
       <li class="links">

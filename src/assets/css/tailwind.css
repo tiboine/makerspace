@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.box {
+  @apply bg-opacity-75 col-start-2 col-end-4 row-start-2 rounded-lg text-xl text-white shadow-2xl
+}
+
+;

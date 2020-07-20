@@ -38,14 +38,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+
   justify-content: space-between;
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#content {
-  /* margin: 0 auto; */
-  /* height: 100%; */
-}
 .first {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -54,9 +51,9 @@ body {
 }
 .content {
   margin: 0 auto;
-  padding-top: 100px;
-  margin-bottom: -100px;
-  max-width: 1200px;
+  /* padding-top: 100px; */
+  /* margin-bottom: -100px; */
+  /* max-width: 1200px; */
 }
 .container {
   width: 100%;
@@ -64,5 +61,11 @@ body {
 .bg {
   background-repeat: no-repeat;
   background-size: auto;
+  background-color: #e2ac02;
+}
+@media only screen and (min-width: 2000px) {
+  .bg {
+    background-size: cover;
+  }
 }
 </style>
