@@ -1,32 +1,68 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <TheNavigation />
+    <div id="content">
+      <router-view :key="$route.path" />
     </div>
-    <router-view />
+    <TheFooter />
   </div>
 </template>
 
+<script>
+import TheNavigation from "@/components/TheNavigation";
+import TheFooter from "@/components/TheFooter";
+
+export default {
+  components: {
+    TheNavigation,
+    TheFooter
+  }
+};
+</script>
 <style>
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-#nav {
-  padding: 30px;
+#content {
+  /* margin: 0 auto; */
+  /* height: 100%; */
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.content {
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-bottom: -100px;
+  max-width: 1200px;
+}
+.container {
+  width: 100%;
+}
+.bg {
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 </style>
