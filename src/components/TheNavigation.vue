@@ -64,7 +64,5 @@ nav a {
   /* background: rgba(0, 0, 0, 0.644); */
   /* background: #f5c21c; */
   background: black;
-
-  /*transform: translateY(50px);*/
 }
 </style>
