@@ -1,15 +1,29 @@
 <template>
-  <nav class="flex fixed" id="nav">
-    <router-link to="/" class="logo">Makerspace Ringebu</router-link>
-    <ul class="nav-links">
-      <li class="links">
-        <router-link to="/">Hjem</router-link>
+  <nav class="flex fixed px-10 " id="nav">
+    <router-link to="/" class="text-white">Makerspace Ringebu</router-link>
+    <ul class="flex ">
+      <li class=" px-6 ">
+        <router-link to="/" class="hover:text-gray-300">Hjem</router-link>
       </li>
-      <li class="links">
-        <router-link to="/om">Om</router-link>
+      <li class=" px-6">
+        <router-link to="/om" class="hover:text-gray-300">Om</router-link>
       </li>
-      <li class="links">
-        <router-link to="/kontakt">Kontakt</router-link>
+      <li class=" px-6">
+        <router-link to="/kontakt" class="hover:text-gray-300"
+          >Kontakt</router-link
+        >
+      </li>
+
+      <li class=" px-6">
+        <router-link to="/kontakt" class="hover:text-gray-300"
+          >Kontakt</router-link
+        >
+      </li>
+
+      <li class=" px-6">
+        <router-link to="/kontakt" class="hover:text-gray-300"
+          >mer-info-dot-com</router-link
+        >
       </li>
     </ul>
   </nav>
@@ -31,7 +45,7 @@ nav {
   transition: all 0.4s linear;
 }
 nav a {
-  color: black;
+  @apply text-white;
   font-weight: bold;
 }
 .nav-links {
@@ -44,25 +58,17 @@ nav a {
   text-decoration: none;
   padding: 0 20px;
 }
-#nav a:hover {
-  color: red;
-}
+
 .links {
   list-style: none;
 }
-.logo {
-  text-decoration: none;
-  color: white !important;
-  padding: 20px;
-  font-size: 23px;
-}
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  /* color: #42b983; */
+  @apply text-red-500;
 }
-.sticky {
-  /* background: rgba(0, 0, 0, 0.644); */
-  /* background: #f5c21c; */
+.nav-color {
   background: black;
+  @apply shadow-2xl;
 }
 </style>

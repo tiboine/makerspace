@@ -5,7 +5,9 @@
 @tailwind utilities;
 
 .box {
-  @apply rounded-lg text-xl text-white shadow-2xl
+  @apply rounded-md text-xl text-white shadow-2xl;
 }
 
-;
+.btn {
+  @apply rounded-lg text-white border-2 inline-block py-2 px-4 uppercase cursor-pointer;
+}

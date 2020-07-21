@@ -21,8 +21,8 @@ var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
+    navbar.classList.add("nav-color");
   } else {
-    navbar.classList.remove("sticky");
+    navbar.classList.remove("nav-color");
   }
 }

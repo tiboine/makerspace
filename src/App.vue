@@ -27,6 +27,7 @@ body {
   padding: 0;
   height: 100%;
   font-family: "Roboto Condensed", sans-serif;
+  scroll-behavior: smooth;
 }
 
 #app {
@@ -60,8 +61,7 @@ body {
 }
 .bg {
   background-repeat: no-repeat;
-  background-size: auto;
-  background-color: #e2ac02;
+  background-size: cover;
 }
 @media only screen and (min-width: 2000px) {
   .bg {
