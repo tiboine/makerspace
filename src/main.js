@@ -12,6 +12,7 @@ new Vue({
   render: (h) => h(App),
 }).$mount("#app");
 
+// fade in nav bar bg
 window.onscroll = function() {
   myFunction();
 };

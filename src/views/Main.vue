@@ -1,10 +1,12 @@
 <template>
   <div class="container-xl bg">
-    <div class="content md:h-screen p-4 md:grid grid-cols-4 grid-rows-3">
-      <p
-        class="text-4xl md:text-6xl text-white col-span-2 col-start-2 py-16"
-      >Velkommen til Makerspace Ringebu</p>
-      <div class="box p-4 md:p-16 my-8 bg-red-600">
+    <div class="content  p-4 ">
+      <div class="hidden md:block">
+        <p class="text-6xl  py-16 text-orange-600">
+          Velkommen til Makerspace Ringebu
+        </p>
+      </div>
+      <div class=" my-64 box p-4 md:p-16  bg-red-600 w-auto inline-block">
         <p>
           Makerspace Ringebu er et åpent verksted og hobbyrom med fokus på
           teknologi og læring.
@@ -59,42 +61,5 @@
 <style scoped>
 .bg {
   background-image: url("../assets/joanna-kosinska.jpg");
-}
-
-.container {
-  height: 100%;
-}
-
-.first {
-  grid-template-areas:
-    "welcome welcome welcome "
-    ". box1 .";
-}
-#welcome {
-  grid-area: welcome;
-  color: white;
-  font-size: 50px;
-  text-transform: uppercase;
-}
-/* .box {
-  padding: 20px;
-  border-radius: 10px;
-  margin: auto;
-  font-size: 22px;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.35), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-} */
-
-#box1 {
-  grid-area: box1;
-  background: cornflowerblue;
-}
-#box2 {
-  background: #e2ac02;
-}
-.andre {
-  margin: 0 auto;
-  padding: 50px;
-  background: cornflowerblue;
 }
 </style>
