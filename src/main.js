@@ -35,22 +35,25 @@ const hamburger = document.getElementById("hamburger");
 const hamburger_icon = document.getElementById("hamburger-icon");
 const x_icon = document.getElementById("x-icon");
 const menu = document.getElementById("menu-item");
+const msTitle = document.getElementById("ms-title");
 
 hamburger.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-  menu.classList.toggle("open");
-  hamburger_icon.classList.toggle("hidden");
-  x_icon.classList.toggle("hidden");
+  if (menu.classList.contains("hidden")) {
+    menu.classList.remove("hidden");
+    msTitle.classList.add("hidden");
+    hamburger_icon.classList.add("hidden");
+    x_icon.classList.remove("hidden");
+  } else {
+    menu.classList.add("hidden");
+    msTitle.classList.remove("hidden");
+    hamburger_icon.classList.remove("hidden");
+    x_icon.classList.add("hidden");
+  }
 });
 
 menu.addEventListener("click", () => {
   menu.classList.add("hidden");
-  x_icon.classList.toggle("hidden");
-  hamburger_icon.classList.toggle("hidden");
+  msTitle.classList.remove("hidden");
+  x_icon.classList.add("hidden");
+  hamburger_icon.classList.remove("hidden");
 });
-
-// body.addEventListener("click", () => {
-//   if (menu.classList.contains("open")) {
-//     menu.classList.add("hidden");
-//   }
-// });
