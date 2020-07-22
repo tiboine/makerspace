@@ -1,31 +1,34 @@
 <template>
-  <nav class="w-full flex fixed justify-between h-16 items-center px-4 lg:px-10 m-auto" id="nav">
-    <router-link to="/" class="text-white">Makerspace Ringebu</router-link>
+  <nav
+    class="w-full lg:flex pt-4 lg:pt-0 fixed justify-between h-16 items-center px-4 lg:px-10"
+    id="nav"
+  >
+    <router-link to="/" class="text-white text-xl">Makerspace Ringebu</router-link>
     <ul
-      class="hidden lg:flex flex-col lg:flex-row bg-black lg:bg-transparent pb-4 pt-20 lg:pt-0 mt-40 lg:mt-0"
+      class="hidden lg:flex flex-col lg:flex-row bg-black lg:bg-transparent lg:pt-0 py-4 lg:pb-0 lg:mt-0"
       div
       id="menu-item"
     >
-      <li class="px-24 hover:bg-white w-auto">
-        <router-link to="/" class="text-xl px-12 block hover:text-black">Hjem</router-link>
+      <li class="lg:px-2 hover:bg-white w-auto pb-4">
+        <router-link to="/" class="text-xl px-12 lg:px-4 hover:text-black">Hjem</router-link>
       </li>
-      <li class="hover:bg-white">
-        <router-link to="/om" class="text-xl px-12 block hover:text-black">Om</router-link>
+      <li class="hover:bg-white pb-4">
+        <router-link to="/om" class="text-xl px-12 lg:px-4 hover:text-black">Om</router-link>
       </li>
-      <li class="hover:bg-white">
-        <router-link to="/kontakt" class="text-xl px-12 block hover:text-black">Kontakt</router-link>
-      </li>
-
-      <li class="hover:bg-white">
-        <router-link to="/kontakt" class="text-xl px-12 block hover:text-black">Kontakt</router-link>
+      <li class="hover:bg-white pb-4">
+        <router-link to="/kontakt" class="text-xl px-12 lg:px-4 hover:text-black">Kontakt</router-link>
       </li>
 
-      <li class="hover:bg-white">
-        <router-link to="/kontakt" class="text-xl px-12 block hover:text-black">mer-info-dot-com</router-link>
+      <li class="hover:bg-white pb-4">
+        <router-link to="/kontakt" class="text-xl px-12 lg:px-4 hover:text-black">Kontakt</router-link>
+      </li>
+
+      <li class="hover:bg-white pb-4">
+        <router-link to="/kontakt" class="text-xl px-12 lg:px-4 hover:text-black">mer-info-dot-com</router-link>
       </li>
     </ul>
 
-    <div class="px-4 cursor-pointer fixed right-0 flex items-center" div id="hamburger">
+    <div class="px-4 cursor-pointer fixed right-0 top-0 pt-4" div id="hamburger">
       <svg class="w-8 lg:hidden" id="hamburger-icon" fill="white" viewBox="0 0 20 20">
         <path
           fill-rule="evenodd"
