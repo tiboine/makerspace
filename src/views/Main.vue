@@ -1,10 +1,12 @@
 <template>
   <div class="container-xl bg bg-fixed">
-    <div class="content p-4">
-      <div class="hidden md:block">
-        <p class="text-6xl py-16 text-orange-600">Velkommen til Makerspace Ringebu</p>
+    <div class="p-4">
+      <div class="md:block">
+        <p
+          class="hidden md:block text-6xl md:py-16 text-orange-600"
+        >Velkommen til Makerspace Ringebu</p>
       </div>
-      <div class="max-w-3xl my-48 box p-4 md:p-16 bg-black opacity-75 w-auto inline-block">
+      <div class="max-w-3xl my-24 md:my-48 box p-4 md:p-16 bg-black w-auto inline-block">
         <p>
           Makerspace Ringebu er et åpent verksted og hobbyrom med fokus på
           teknologi og læring.

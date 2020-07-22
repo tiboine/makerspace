@@ -16,13 +16,34 @@ new Vue({
 window.onscroll = function() {
   myFunction();
 };
+
+//var sticky = navbar.offsetTop;
+
 var navbar = document.getElementById("nav");
-var sticky = navbar.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-    navbar.classList.add("nav-color");
+  if (window.pageYOffset > 0) {
+    navbar.classList.add("bg-black");
   } else {
-    navbar.classList.remove("nav-color");
+    navbar.classList.remove("bg-black");
   }
 }
+
+/* mobile navbar */
+
+const hamburger = document.getElementById("hamburger");
+const hamburger_icon = document.getElementById("hamburger-icon");
+const x_icon = document.getElementById("x-icon");
+const menu = document.getElementById("menu");
+
+hamburger.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+  hamburger_icon.classList.toggle("hidden");
+  x_icon.classList.toggle("hidden");
+});
+
+menu.addEventListener("click", () => {
+  menu.classList.add("hidden");
+  x_icon.classList.toggle("hidden");
+  hamburger_icon.classList.toggle("hidden");
+});

@@ -1,7 +1,7 @@
 <template>
   <div class="container-xl bg">
-    <div class="md:h-screen p-4 pt-16 md:grid grid-cols-4 grid-rows-3">
-      <div class="box p-4 md:p-16 my-8 bg-gray-800">
+    <div class="md:h-screen p-4 pt-16">
+      <div class="box p-4 md:p-16 my-8 bg-gray-800 max-w-5xl m-auto mt-64">
         <p>
           Makerspace Ringebu er et non-profit makerspace i landsbyen Ringebu.
           Våre brukere er både enkeltpersoner. Makerspace ble etablert i

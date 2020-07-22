@@ -39,7 +39,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-
   justify-content: space-between;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -50,12 +49,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
 }
-.content {
-  margin: 0 auto;
-  /* padding-top: 100px; */
-  /* margin-bottom: -100px; */
-  /* max-width: 1200px; */
-}
+
 .container {
   width: 100%;
 }
