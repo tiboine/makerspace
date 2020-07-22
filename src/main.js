@@ -30,14 +30,15 @@ function myFunction() {
 }
 
 /* mobile navbar */
-
+// const body = document.querySelector("body");
 const hamburger = document.getElementById("hamburger");
 const hamburger_icon = document.getElementById("hamburger-icon");
 const x_icon = document.getElementById("x-icon");
-const menu = document.getElementById("menu");
+const menu = document.getElementById("menu-item");
 
 hamburger.addEventListener("click", () => {
   menu.classList.toggle("hidden");
+  menu.classList.toggle("open");
   hamburger_icon.classList.toggle("hidden");
   x_icon.classList.toggle("hidden");
 });
@@ -47,3 +48,9 @@ menu.addEventListener("click", () => {
   x_icon.classList.toggle("hidden");
   hamburger_icon.classList.toggle("hidden");
 });
+
+// body.addEventListener("click", () => {
+//   if (menu.classList.contains("open")) {
+//     menu.classList.add("hidden");
+//   }
+// });

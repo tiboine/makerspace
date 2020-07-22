@@ -4,24 +4,24 @@
     <ul
       class="hidden lg:flex flex-col lg:flex-row bg-black lg:bg-transparent pb-4 pt-20 lg:pt-0 mt-40 lg:mt-0"
       div
-      id="menu"
+      id="menu-item"
     >
-      <li class="px-6">
-        <router-link to="/" class="hover:text-gray-300">Hjem</router-link>
+      <li class="px-24 hover:bg-white w-auto">
+        <router-link to="/" class="text-xl px-12 block hover:text-black">Hjem</router-link>
       </li>
-      <li class="px-6">
-        <router-link to="/om" class="hover:text-gray-300">Om</router-link>
+      <li class="hover:bg-white">
+        <router-link to="/om" class="text-xl px-12 block hover:text-black">Om</router-link>
       </li>
-      <li class="px-6">
-        <router-link to="/kontakt" class="hover:text-gray-300">Kontakt</router-link>
-      </li>
-
-      <li class="px-6">
-        <router-link to="/kontakt" class="hover:text-gray-300">Kontakt</router-link>
+      <li class="hover:bg-white">
+        <router-link to="/kontakt" class="text-xl px-12 block hover:text-black">Kontakt</router-link>
       </li>
 
-      <li class="px-6">
-        <router-link to="/kontakt" class="hover:text-gray-300">mer-info-dot-com</router-link>
+      <li class="hover:bg-white">
+        <router-link to="/kontakt" class="text-xl px-12 block hover:text-black">Kontakt</router-link>
+      </li>
+
+      <li class="hover:bg-white">
+        <router-link to="/kontakt" class="text-xl px-12 block hover:text-black">mer-info-dot-com</router-link>
       </li>
     </ul>
 
