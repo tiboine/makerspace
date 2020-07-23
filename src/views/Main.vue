@@ -81,13 +81,15 @@
       </div>
     </div>
     <div class="bg2 bg-fixed h-64"></div>
-    <div class="container-xl bg-gray-600">
-      <h2 class="text-2xl md:text-5xl text-white uppercase py-16">
+    <div class="container-xl bg-gray-600 py-8 lg:py-24">
+      <h2 class="text-2xl md:text-5xl text-white uppercase py-2">
         Hva finner du på Makerspace?
       </h2>
       <div class="lg:grid grid-cols-3 lg:p-12 gap-20">
         <div class="box mb-12 p-4 md:p-8 bg-red-600 shadow-xl m-4 lg:m-0">
-          <h2 class="text-lg md:text-xl text-white uppercase pb-2">Arduino</h2>
+          <h2 class="text-lg md:text-xl text-white uppercase pb-2">
+            Arduino
+          </h2>
           <p>
             Arduino er en åpen kildekode-elektronikkplattform basert på
             brukervennlig maskinvare og programvare. Den er beregnet på alle som
@@ -145,7 +147,8 @@
           </p>
         </div>
       </div>
-      <div class="box"></div>
+    </div>
+    <div>
       <iframe
         id="maps"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1901.9611847226818!2d10.138288452263176!3d61.529663682396155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x466ae63e8f3e84e9%3A0x2b1ed0e856b6388f!2sMakerspace%20Ringebu!5e0!3m2!1sen!2sno!4v1588974334076!5m2!1sen!2sno"

@@ -51,7 +51,7 @@
 
 <style scoped>
 .bg {
-  background-image: url("../assets/img/nasa-earth.jpg");
+  background-image: url("../assets/img/nasa-ocean-2k.jpg");
 }
 .first {
   grid-template-areas:
