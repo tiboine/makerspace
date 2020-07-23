@@ -1,24 +1,44 @@
 <template>
   <div class="container-xl bg bg-fixed">
-    <div class="p-4">
-      <div class="md:block">
-        <p class="hidden md:block text-6xl md:py-16 text-orange-600">
-          Velkommen til Makerspace Ringebu
-        </p>
-      </div>
-      <div
-        class="max-w-3xl my-24 md:my-48 box p-4 md:p-16 bg-black w-auto inline-block"
+    <div class="md:block">
+      <p class="hidden md:block text-6xl md:py-16 text-orange-600">
+        Velkommen til Makerspace Ringebu
+      </p>
+    </div>
+    <div
+      class="max-w-3xl my-24 md:my-48 box p-4 md:p-16 bg-black w-auto inline-block"
+    >
+      <p>
+        Makerspace Ringebu er et åpent verksted og hobbyrom med fokus på
+        teknologi og læring.
+      </p>
+      <p>
+        Et rom fylt av verktøy og nyskapende teknologi som f.eks. 3D-printere,
+        laserskjærere, loddebolter, symaskiner og roboter som lar deg skape ting
+        på nye måter.
+      </p>
+    </div>
+    <div class="flex justify-end p-4 text-gray-600">
+      <svg class="w-4 " fill="currentColor" viewBox="0 0 20 20">
+        <path
+          fill-rule="evenodd"
+          d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z"
+          clip-rule="evenodd"
+        ></path>
+      </svg>
+
+      <span class="text-xs ">
+        <a
+          href="https://unsplash.com/@othentikisra?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+        >
+          Israel Palacio</a
+        >
+        @
+        <a
+          href="https://unsplash.com/@tiboine/likes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+          >Unsplash</a
+        ></span
       >
-        <p>
-          Makerspace Ringebu er et åpent verksted og hobbyrom med fokus på
-          teknologi og læring.
-        </p>
-        <p>
-          Et rom fylt av verktøy og nyskapende teknologi som f.eks. 3D-printere,
-          laserskjærere, loddebolter, symaskiner og roboter som lar deg skape
-          ting på nye måter.
-        </p>
-      </div>
     </div>
 
     <div class="xl:grid grid-cols-3">
