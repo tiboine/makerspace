@@ -54,15 +54,4 @@
 .bg {
   background-image: url("../assets/img/nasa-ocean-2k.jpg");
 }
-.first {
-  grid-template-areas:
-    ". om ."
-    ". . .";
-}
-
-#om {
-  grid-area: om;
-  color: white;
-  font-size: 20px;
-}
 </style>
