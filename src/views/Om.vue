@@ -4,8 +4,8 @@
       <div class="box p-4 md:p-16 my-8 bg-gray-800 max-w-5xl m-auto mt-64">
         <p>
           Makerspace Ringebu er et non-profit makerspace i landsbyen Ringebu.
-          Våre brukere er både enkeltpersoner. Makerspace ble etablert i
-          oktober 2017 og flyttet inn i det gamle biblioteket.
+          Våre brukere er både enkeltpersoner. Makerspace ble etablert i oktober
+          2017 og flyttet inn i det gamle biblioteket.
         </p>
         <p>
           Vårt Makerspace er et prototypeverksted der mennesker med felles
@@ -14,9 +14,9 @@
         </p>
         <p>
           Alle er velkomne her. Våre medlemmer er produsenter, hobbyister,
-          innovatører, spesialister, teknologier og harde arbeidere. Noen
-          bruker Makerspace Ringebu som et sted å jobbe med hobbyer, andre har
-          et profesjonelt behov.
+          innovatører, spesialister, teknologier og harde arbeidere. Noen bruker
+          Makerspace Ringebu som et sted å jobbe med hobbyer, andre har et
+          profesjonelt behov.
         </p>
         <p>
           Skaperens mål er å være et attraktivt møte- og arbeidssted for
@@ -30,7 +30,7 @@
 
 <style scoped>
 .bg {
-  background-image: url("../assets/nasa-earth.jpg");
+  background-image: url("../assets/img/nasa-earth.jpg");
 }
 .first {
   grid-template-areas:

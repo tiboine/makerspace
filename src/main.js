@@ -41,6 +41,7 @@ hamburger.addEventListener("click", () => {
   if (menu.classList.contains("hidden")) {
     menu.classList.remove("hidden");
     msTitle.classList.add("hidden");
+
     hamburger_icon.classList.add("hidden");
     x_icon.classList.remove("hidden");
   } else {

@@ -26,7 +26,7 @@
         <h2 class="text-2xl md:text-5xl text-white uppercase pb-8" div id="hva">
           Hva er et makerspace?
         </h2>
-        <div class="box p-4 md:p-8 bg-purple-600 mb-8">
+        <div class="box p-4 md:p-8 bg-purple-600">
           <p>
             Et makerspace er en form for digital sløyd, et rom fylt av verktøy
             og nyskapende teknologi som f.eks. 3D-printere, laserskjærere,
@@ -45,7 +45,7 @@
         <h2 class="text-2xl md:text-5xl text-white uppercase pb-8">
           Hvem er det for?
         </h2>
-        <div class="box p-4 md:p-8 bg-blue-600 mb-8">
+        <div class="box p-4 md:p-8 bg-blue-600">
           <p>
             Det for alle som har lyst å enten lære noe nytt, eller fikse på noe
             som du kanskje trenger verktøy til.
@@ -88,14 +88,10 @@
             3D-printing
           </h2>
           <p>
-            3D-utskrift eller 3D-printing, også kalt additiv produksjon (fra
-            engelsk additive manufacturing), er en produksjonsteknikk der
-            tredimensjonale objekter bygges opp lag for lag ved hjelp av et
-            skriverhode. Utskriften av hvert lag kan minne en del om
-            todimensjonal blekkutskrift. 3D-utskrift er ikke blant de hurtigste
-            tilvirkningsteknikkene, men er veldig fleksibelt. Derfor brukes det
-            spesielt mye til å lage prototyper, modeller og gjenstander som
-            produseres i små kvanta.
+            3D-utskrift eller 3D-printing, også kalt additiv produksjon, er en
+            produksjonsteknikk der tredimensjonale objekter bygges opp lag for
+            lag ved hjelp av et skriverhode. Utskriften av hvert lag kan minne
+            en del om todimensjonal blekkutskrift.
           </p>
         </div>
         <div class="box mb-12 p-4 md:p-8 bg-teal-600 shadow-xl m-4 lg:m-0">
@@ -147,10 +143,10 @@
 
 <style scoped>
 .bg {
-  background-image: url("../assets/israel-palacio-2k.jpg");
+  background-image: url("../assets/img/israel-palacio-2k.jpg");
 }
 .bg2 {
-  background-image: url("../assets/makerspace-blurred-big.jpg");
+  background-image: url("../assets/img/makerspace-blurred-big.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

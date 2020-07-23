@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <TheNavigation />
-    <div id="content">
+
+    <div id="content" class="">
       <router-view :key="$route.path" />
     </div>
     <TheFooter />
@@ -15,8 +16,8 @@ import TheFooter from "@/components/TheFooter";
 export default {
   components: {
     TheNavigation,
-    TheFooter
-  }
+    TheFooter,
+  },
 };
 </script>
 <style>
@@ -26,33 +27,21 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Roboto Condensed", sans-serif;
   scroll-behavior: smooth;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed", Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: white;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
-.first {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  height: 100vh;
-}
-
-.container {
-  width: 100%;
-}
 .bg {
   background-repeat: no-repeat;
   background-size: cover;

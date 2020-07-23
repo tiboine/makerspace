@@ -1,13 +1,13 @@
 <template>
   <nav
-    class="w-full  lg:flex pt-4 lg:pt-0 fixed justify-between h-16 items-center px-4 "
+    class=" w-full  lg:flex pt-4 lg:pt-0 fixed justify-between h-16 items-center px-4 "
     id="nav"
   >
     <router-link to="/" class="text-white text-xl " id="ms-title"
       >Makerspace Ringebu</router-link
     >
     <ul
-      class="hidden -mt-6 pt-6 lg:flex flex-row  bg-black lg:bg-transparent  "
+      class="hidden -mt-4 pt-6 lg:flex flex-row  bg-black lg:bg-transparent  "
       div
       id="menu-item"
     >
@@ -30,22 +30,6 @@
           to="/kontakt"
           class="text-xl px-12 p-4 lg:px-4 hover:text-black block"
           >Kontakt</router-link
-        >
-      </li>
-
-      <li class="hover:bg-white  lg:pb-0">
-        <router-link
-          to="/kontakt"
-          class="text-xl px-12 p-4 lg:px-4 hover:text-black block"
-          >Kontakt</router-link
-        >
-      </li>
-
-      <li class="hover:bg-white pb-4 lg:pb-0">
-        <router-link
-          to="/kontakt"
-          class="text-xl px-12 lg:px-4 hover:text-black block"
-          >mer-info-dot-com</router-link
         >
       </li>
     </ul>
@@ -93,6 +77,12 @@ nav {
   transition: all 0.4s linear;
   /* transform: translateX(-50%);
   left: 50%; */
+}
+.hidden {
+  transition-duration: 1000ms;
+}
+.slide {
+  top: 0 !important;
 }
 nav a {
   @apply text-white;

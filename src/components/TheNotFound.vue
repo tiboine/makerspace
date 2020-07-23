@@ -1,9 +1,7 @@
 <template>
-  <div class="container content">404 NOT FOUND</div>
+  <div class=" pt-24 flex  content-center flex-col">
+    <p class="text-6xl uppercase text-center text-black">404 Not found</p>
+  </div>
 </template>
 
-<style scoped>
-.container {
-  font-size: 40px;
-}
-</style>
+<style scoped></style>
